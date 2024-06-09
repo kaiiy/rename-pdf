@@ -53,7 +53,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Rename PDF files with underscores instead of special characters."
     )
-    parser.add_argument("path", type=str, help="Path to the PDF file or directory")
+    parser.add_argument("path", type=str, help="path to the PDF file or directory")
     args = parser.parse_args()
 
     if os.path.isdir(args.path):

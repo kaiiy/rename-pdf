@@ -30,5 +30,3 @@ options:
 ```sh
 $ cp ./src/main.py ./bin/rename-pdf
 ```
-
-Additionally, add `#!/usr/bin/env python3` to the top of the script.
