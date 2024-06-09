@@ -1,0 +1,22 @@
+[project]
+name = "rename-pdf"
+version = "0.1.0"
+description = "Rename PDF files with underscores instead of special characters"
+authors = [{ name = "k", email = "81578246+kaiiy@users.noreply.github.com" }]
+dependencies = ["pypdf2>=3.0.1"]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pdf_py"]
