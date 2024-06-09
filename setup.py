@@ -10,7 +10,7 @@ setup(
     package_dir={"": "src"},
     entry_points={
         "console_scripts": [
-            "rename-pdf=main:main",
+            "renamepdf=main:main",
         ]
     },
     install_requires=["pypdf2>=3.0.1"],
