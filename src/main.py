@@ -1,4 +1,4 @@
-import PyPDF2
+import pypdf
 import argparse
 from typing import Optional
 import re
@@ -15,7 +15,7 @@ def clean_title(text: str) -> str:
 
 def get_pdf_title(file_path: str) -> Optional[str]:
     with open(file_path, "rb") as file:
-        reader = PyPDF2.PdfReader(file)
+        reader = pypdf.PdfReader(file)
         info = reader.metadata
         title = info.title if info and info.title else None
         return title

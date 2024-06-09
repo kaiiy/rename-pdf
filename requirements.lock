@@ -8,7 +8,7 @@
 #   with-sources: false
 
 -e file:.
-pypdf2==3.0.1
+pypdf==4.2.0
     # via rename-pdf
 setuptools==70.0.0
     # via rename-pdf
