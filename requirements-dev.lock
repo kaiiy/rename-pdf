@@ -9,4 +9,6 @@
 
 -e file:.
 pypdf2==3.0.1
-    # via pdf-py
+    # via rename-pdf
+setuptools==70.0.0
+    # via rename-pdf

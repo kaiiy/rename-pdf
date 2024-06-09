@@ -1,3 +1,5 @@
-# pdf-py
+# rename-pdf
 
-Describe your project here.
+Rename PDF files with underscores instead of special characters.
+
+
